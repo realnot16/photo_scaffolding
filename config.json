@@ -1,0 +1,22 @@
+
+  {
+    "sources": {
+      "initial": "E:\\",
+      "altre_foto": ["D:\\MediaSara","D:\\nextcloud\\Foto famiglia"],
+      "altro_video": []
+    },
+    "output": {
+      "foto": "output/foto",
+      "video": "output/video"
+    },
+    "missing_lists": {
+      "foto": "missing/missing_foto.txt",
+      "video": "missing/missing_video.txt"
+    },
+    "media": {
+      "photo_extensions": [".jpg", ".jpeg", ".png", ".bmp", ".gif", ".tiff", ".heic", ".webp"],
+      "video_extensions": [".mp4", ".mov", ".avi", ".mkv", ".webm", ".3gp", ".mts", ".mpeg"],
+      "size_tolerance_bytes": 1024
+    }
+  }
+  
